@@ -2,6 +2,8 @@
 
 ## To Run the Application
 
+    - Make .env file and keep you mongo database URL
+
     - npm install
 
     - npm start

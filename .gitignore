@@ -15,11 +15,9 @@ yarn-error.log*
 # Coverage output
 /coverage
 
-# Environment variables
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# Ignore all environment files except .env.example
+.env
+!.env.example
 
 # Miscellaneous
 .DS_Store
