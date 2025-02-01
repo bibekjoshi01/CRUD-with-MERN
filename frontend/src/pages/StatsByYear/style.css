@@ -1,0 +1,100 @@
+.stats-container {
+    padding: 20px;
+    margin: auto;
+    max-width: 80%;
+    background: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.stats-header {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #425d7c;
+}
+
+.stats-actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.stats-actions input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 150px;
+}
+
+.stats-actions button {
+    padding: 10px 16px;
+    font-size: 1rem;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+}
+
+.stats-actions button:disabled {
+    background: #aaa;
+    cursor: not-allowed;
+}
+
+.stats-card {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.stats-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #425d7c;
+}
+
+.stats-details {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.stat-item {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #f9f9f9;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.stat-item p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0 0 10px;
+    color: #555;
+}
+
+.stat-item span {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
+
+.info-message {
+    font-size: 1rem;
+    color: #555;
+}
